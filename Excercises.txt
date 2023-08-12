@@ -1,0 +1,37 @@
+SELECT column_Name1, column_Name2, ....., column_NameN aggregate_function_name(column_Name) 
+FROM table_name 
+GROUP BY column_Name1 
+HAVING condition;  
+
+2 Tier Client/Server
+
+3 Tier Architecture
+---------------------
+Presentation Tier -> Application Tier -> Database Tier
+
+Excercise: 
+-----------
+1. To get the count of male and female candidates in Batch-2 using SQL
+2. Difference between Primary key and Unique Key with example
+3. Foreign key
+4. Types of Joins and explain with example
+5. What is Normalization & different Normalization techniques
+6. What is view and how to create it (syntax)
+7. Index creation and its significance
+8. Sub-query with example
+9. Stored procedures
+10. Difference between Delete and Truncate
+11. Constraint and its types
+12. Union
+13. What is Alias -> Example (table and column)
+14. Copy of table syntax 
+15. What you understand by Query Optimization ?
+less statements, increase in output speed, space 
+16. 
+
+Data Integritity
+---------------
+Accuracy and Consistency
+
+
+
