@@ -1,0 +1,44 @@
+TDD - Test Driven Development 
+Test case development will start even before the coding 
+1. Based on the requirement -> Develop/write the Test cases
+2. Run all the TCs -> fail as there is NO code
+3. Develop the code -> while TCs fail 
+4. Again run/re-run the TCs and make the test case work as expected
+5. Refactor the code -> Make it more reusable and readable
+6. Repeat steps 1-5 for new Test cases 
+-------------------------
+BDD Requirements
+1. Cucumber Eclispe Plugin from Eclipse Marketplace
+2. Tidy Gherkins(TG) plugin to generate step definition
+3. cucumber-java, cucumber-junit,cucumber-core -jar mvnrepository.com
+--------
+@Test -> TDD approach will fail as there is no implementation of the code
+Public void checkLogin(){
+   LoginPage.enterUserName("UserName");
+   LoginPage.enterPassword("Password");
+   HomePage homePage = LoginPage.submit();
+   Assert.assertNotNull(homePage); //verification
+}
+--------------------------
+SDET -> Software Development Engineer Test 
+
+BDD - Behavior Driven Development 
+BDD is an extension to TDD
+
+Process in BDD
+1. Write the TCs based on the Behvaior of the application
+2. Write the automated scripts
+3. Implement the functional code
+4. check if the behavior is successful or not
+5. Refactor code
+6. Repeat steps 1-5
+
+Scenario:Login Check
+Given I am on the login page
+When I enter "username" username
+And I enter "password" password
+And click on the "Login" button
+Then I am able to login sucessfully
+
+
+ 
